@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
+    </style>
+    <title>@yield('title')</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo"><i class='bx bx-cart text-primary text-3xl'></i> ZeroMart</h1>
+        <div class="content-box">
+            @yield('content')
+        </div>
+    </div>
+</body>
+</html>
