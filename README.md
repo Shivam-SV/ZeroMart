@@ -1,6 +1,6 @@
 # ZeroMart
 
-Simple admin panel with static dashboard
+Simple admin panel with full authentication system, static dashboard, simple profile page
 
 ### Pre-Requested
 - php > 8.0
