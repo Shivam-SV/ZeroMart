@@ -16,6 +16,10 @@ composer update
 ```
 npm i 
 ```
+- Install the migrations
+```
+php artisan migrate
+```
 - Run the server
 ```
 php artisan serve
