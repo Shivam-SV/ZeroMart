@@ -20,6 +20,10 @@ npm i
 ```
 php artisan migrate
 ```
+- Generate the application key
+```
+php artisan key:generate
+```
 - Run the server
 ```
 php artisan serve
