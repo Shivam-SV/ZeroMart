@@ -20,6 +20,8 @@ npm i
 ```
 php artisan migrate
 ```
+- Create a .env file & copy the content of .env.example
+- add you database credentials and email api keys
 - Generate the application key
 ```
 php artisan key:generate
